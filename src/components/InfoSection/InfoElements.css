@@ -1,0 +1,78 @@
+body {
+  background: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+}
+.title{
+  font-size: 2.5em;
+  text-align: center;
+  font-family: "Rubic";
+  color: #fff;
+  margin-bottom: 10px;
+}
+.subtitle{
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+h3 {
+  padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgb(110, 110, 110), 0 0.4em 1.25em 0 rgba(116, 115, 115, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.date {
+  color: rgb(201,251,255);
+  font-family: "Rubic";
+
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3dc3c;
+}
+
+@media only screen and (max-width: 1700px){
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none  !important;
+    color:#fff;
+    margin-top: 1.5em;
+  }
+}
+.underline {
+  background-color: #8c34eb;
+  width: 75px;
+  height: 5px;
+  border-radius: 50px 50px;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
